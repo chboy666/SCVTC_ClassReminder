@@ -24,7 +24,7 @@
 
 - 本脚本使用Python获取课程表信息，并且在上课前30分钟通过钉钉发信提醒用户。故需要配置钉钉发信参数，如果不愿意配置，则此项目可能不适合你。
 - 如果你不想折腾，可能这个项目也不适合你，但你若有问题欢迎提出issue，我也会尽力帮助你，但请遵循[《**提问的智慧** - **How To Ask Questions The Smart Way**》](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)。
-- 如果你也是SCVTC(川教)的学生，那么你可以完全不用改任何的代码，直接部署之后填入相应的配置参数，即可使用。
+- 如果你也是川教的学生，那么你可以完全不用改任何的代码，直接部署之后填入相应的配置参数，即可使用。
 
 ## 安装与使用
 
@@ -50,7 +50,7 @@ ding_sdk_config_robotCode = ""
 - 把相应参数填入`/config.py`中。
 
 ```python
-web_system_url = 'https://jwxt.scvtc.edu.cn/' # 教务系统中的 url 链接
+web_system_url = '' # 教务系统的 url 访问链接
 web_system_login_username = '' # 教务系统欲登录的 用户名
 web_system_login_password = '' # 教务系统欲登录中的 密码
 ```
